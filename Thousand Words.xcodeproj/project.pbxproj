@@ -22,6 +22,17 @@
 		3C9133D218B2648A009EC7A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9133B618B2648A009EC7A5 /* CoreData.framework */; };
 		3C9133DA18B2648A009EC7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C9133D818B2648A009EC7A5 /* InfoPlist.strings */; };
 		3C9133DC18B2648A009EC7A5 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133DB18B2648A009EC7A5 /* Thousand_WordsTests.m */; };
+		3C9133E618B3B452009EC7A5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9133E518B3B452009EC7A5 /* Storyboard.storyboard */; };
+		3C9133E918B3B501009EC7A5 /* VIAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133E818B3B501009EC7A5 /* VIAlbumTableViewController.m */; };
+		3C9133EF18B3CC17009EC7A5 /* VICoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133EE18B3CC17009EC7A5 /* VICoreDataHelper.m */; };
+		3C9133F218B3D154009EC7A5 /* VIPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133F118B3D154009EC7A5 /* VIPhotosCollectionViewController.m */; };
+		3C9133F518B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133F418B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.m */; };
+		3C9133F718B3E64B009EC7A5 /* astro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C9133F618B3E64B009EC7A5 /* astro.jpg */; };
+		3C9133FA18B3F9E8009EC7A5 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133F918B3F9E8009EC7A5 /* Album.m */; };
+		3C9133FD18B3F9E8009EC7A5 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9133FC18B3F9E8009EC7A5 /* Photo.m */; };
+		3C91340118B3FB10009EC7A5 /* VIPictureDataTranformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91340018B3FB10009EC7A5 /* VIPictureDataTranformer.m */; };
+		3C91340718B41781009EC7A5 /* VIPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91340618B41781009EC7A5 /* VIPhotoDetailViewController.m */; };
+		3C91340B18B51BA7009EC7A5 /* VIFiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91340A18B51BA7009EC7A5 /* VIFiltersCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,26 @@
 		3C9133D718B2648A009EC7A5 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		3C9133D918B2648A009EC7A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C9133DB18B2648A009EC7A5 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		3C9133E518B3B452009EC7A5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3C9133E718B3B501009EC7A5 /* VIAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VIAlbumTableViewController.h; path = ../VIAlbumTableViewController.h; sourceTree = "<group>"; };
+		3C9133E818B3B501009EC7A5 /* VIAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VIAlbumTableViewController.m; path = ../VIAlbumTableViewController.m; sourceTree = "<group>"; };
+		3C9133ED18B3CC17009EC7A5 /* VICoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICoreDataHelper.h; sourceTree = "<group>"; };
+		3C9133EE18B3CC17009EC7A5 /* VICoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICoreDataHelper.m; sourceTree = "<group>"; };
+		3C9133F018B3D154009EC7A5 /* VIPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		3C9133F118B3D154009EC7A5 /* VIPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		3C9133F318B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		3C9133F418B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		3C9133F618B3E64B009EC7A5 /* astro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astro.jpg; sourceTree = "<group>"; };
+		3C9133F818B3F9E8009EC7A5 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = ../Album.h; sourceTree = "<group>"; };
+		3C9133F918B3F9E8009EC7A5 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = ../Album.m; sourceTree = "<group>"; };
+		3C9133FB18B3F9E8009EC7A5 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = ../Photo.h; sourceTree = "<group>"; };
+		3C9133FC18B3F9E8009EC7A5 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = ../Photo.m; sourceTree = "<group>"; };
+		3C9133FF18B3FB10009EC7A5 /* VIPictureDataTranformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPictureDataTranformer.h; sourceTree = "<group>"; };
+		3C91340018B3FB10009EC7A5 /* VIPictureDataTranformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPictureDataTranformer.m; sourceTree = "<group>"; };
+		3C91340518B41781009EC7A5 /* VIPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPhotoDetailViewController.h; sourceTree = "<group>"; };
+		3C91340618B41781009EC7A5 /* VIPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPhotoDetailViewController.m; sourceTree = "<group>"; };
+		3C91340918B51BA7009EC7A5 /* VIFiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIFiltersCollectionViewController.h; sourceTree = "<group>"; };
+		3C91340A18B51BA7009EC7A5 /* VIFiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIFiltersCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +146,14 @@
 		3C9133B818B2648A009EC7A5 /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				3C9133C118B2648A009EC7A5 /* VIAppDelegate.h */,
-				3C9133C218B2648A009EC7A5 /* VIAppDelegate.m */,
+				3C9133E518B3B452009EC7A5 /* Storyboard.storyboard */,
+				3C91340C18B51BAE009EC7A5 /* Filters Collection */,
+				3C91340818B417F5009EC7A5 /* Photo Detail */,
+				3C91340218B40A41009EC7A5 /* Album Table */,
+				3C91340318B40A58009EC7A5 /* Photos Collection */,
+				3C91340418B40A6B009EC7A5 /* Collection Cells */,
+				3C9133FE18B3FA58009EC7A5 /* CoreData */,
 				3C9133C718B2648A009EC7A5 /* Images.xcassets */,
-				3C9133C418B2648A009EC7A5 /* Thousand_Words.xcdatamodeld */,
 				3C9133B918B2648A009EC7A5 /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -127,6 +162,9 @@
 		3C9133B918B2648A009EC7A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C9133F618B3E64B009EC7A5 /* astro.jpg */,
+				3C9133C118B2648A009EC7A5 /* VIAppDelegate.h */,
+				3C9133C218B2648A009EC7A5 /* VIAppDelegate.m */,
 				3C9133BA18B2648A009EC7A5 /* Thousand Words-Info.plist */,
 				3C9133BB18B2648A009EC7A5 /* InfoPlist.strings */,
 				3C9133BE18B2648A009EC7A5 /* main.m */,
@@ -151,6 +189,67 @@
 				3C9133D818B2648A009EC7A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C9133FE18B3FA58009EC7A5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3C9133ED18B3CC17009EC7A5 /* VICoreDataHelper.h */,
+				3C9133EE18B3CC17009EC7A5 /* VICoreDataHelper.m */,
+				3C9133C418B2648A009EC7A5 /* Thousand_Words.xcdatamodeld */,
+				3C9133FB18B3F9E8009EC7A5 /* Photo.h */,
+				3C9133FC18B3F9E8009EC7A5 /* Photo.m */,
+				3C9133F818B3F9E8009EC7A5 /* Album.h */,
+				3C9133F918B3F9E8009EC7A5 /* Album.m */,
+				3C9133FF18B3FB10009EC7A5 /* VIPictureDataTranformer.h */,
+				3C91340018B3FB10009EC7A5 /* VIPictureDataTranformer.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		3C91340218B40A41009EC7A5 /* Album Table */ = {
+			isa = PBXGroup;
+			children = (
+				3C9133E718B3B501009EC7A5 /* VIAlbumTableViewController.h */,
+				3C9133E818B3B501009EC7A5 /* VIAlbumTableViewController.m */,
+			);
+			name = "Album Table";
+			sourceTree = "<group>";
+		};
+		3C91340318B40A58009EC7A5 /* Photos Collection */ = {
+			isa = PBXGroup;
+			children = (
+				3C9133F018B3D154009EC7A5 /* VIPhotosCollectionViewController.h */,
+				3C9133F118B3D154009EC7A5 /* VIPhotosCollectionViewController.m */,
+			);
+			name = "Photos Collection";
+			sourceTree = "<group>";
+		};
+		3C91340418B40A6B009EC7A5 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3C9133F318B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.h */,
+				3C9133F418B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.m */,
+			);
+			name = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		3C91340818B417F5009EC7A5 /* Photo Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3C91340518B41781009EC7A5 /* VIPhotoDetailViewController.h */,
+				3C91340618B41781009EC7A5 /* VIPhotoDetailViewController.m */,
+			);
+			name = "Photo Detail";
+			sourceTree = "<group>";
+		};
+		3C91340C18B51BAE009EC7A5 /* Filters Collection */ = {
+			isa = PBXGroup;
+			children = (
+				3C91340918B51BA7009EC7A5 /* VIFiltersCollectionViewController.h */,
+				3C91340A18B51BA7009EC7A5 /* VIFiltersCollectionViewController.m */,
+			);
+			name = "Filters Collection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +328,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9133F718B3E64B009EC7A5 /* astro.jpg in Resources */,
 				3C9133BD18B2648A009EC7A5 /* InfoPlist.strings in Resources */,
 				3C9133C818B2648A009EC7A5 /* Images.xcassets in Resources */,
+				3C9133E618B3B452009EC7A5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +351,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9133BF18B2648A009EC7A5 /* main.m in Sources */,
+				3C9133EF18B3CC17009EC7A5 /* VICoreDataHelper.m in Sources */,
+				3C9133F218B3D154009EC7A5 /* VIPhotosCollectionViewController.m in Sources */,
 				3C9133C318B2648A009EC7A5 /* VIAppDelegate.m in Sources */,
+				3C9133E918B3B501009EC7A5 /* VIAlbumTableViewController.m in Sources */,
+				3C91340B18B51BA7009EC7A5 /* VIFiltersCollectionViewController.m in Sources */,
+				3C9133FA18B3F9E8009EC7A5 /* Album.m in Sources */,
+				3C9133F518B3E2BD009EC7A5 /* VIPhotoCollectionViewCell.m in Sources */,
+				3C91340118B3FB10009EC7A5 /* VIPictureDataTranformer.m in Sources */,
+				3C91340718B41781009EC7A5 /* VIPhotoDetailViewController.m in Sources */,
+				3C9133FD18B3F9E8009EC7A5 /* Photo.m in Sources */,
 				3C9133C618B2648A009EC7A5 /* Thousand_Words.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +562,7 @@
 				3C9133E118B2648A009EC7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9133E218B2648A009EC7A5 /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +571,7 @@
 				3C9133E418B2648A009EC7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
